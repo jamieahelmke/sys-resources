@@ -164,7 +164,7 @@ set noswapfile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call plug#begin('~/.local/nvim/plugged')
+call plug#begin('~/AppData/Local/nvim/plugged')
 " Line Plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -173,6 +173,18 @@ Plug 'vim-airline/vim-airline-themes'
 "Plug 'flazz/vim-colorschemes'		" Many themes
 Plug 'sainnhe/everforest' 		"Everforest theme
 Plug 'NLKNguyen/papercolor-theme'	"Papercolor theme
+
+" Start screen
+Plug 'mhinz/vim-startify'
+
+" Devel Plugins
+Plug 'preservim/nerdtree'     " File Tree
+Plug 'ryanoasis/vim-devicons' " Fancy Icons
+
+"Programming Langs
+Plug 'StanAngeloff/php.vim'
+Plug 'rust-lang/rust.vim'
+
 call plug#end()
 
 " COLORSCHEME
